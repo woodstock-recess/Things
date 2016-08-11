@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+
+body {
+  background: #FFF;
+}
+
+
+.box-with-text {
+	position:absolute;
+	top:50%;
+	left:50%;
+	background-image: url(../images/lana.png);
+	-webkit-transform:translateX(-50%) translateY(-50%);
+	background-repeat:repeat;
+	background-position: 50% 50%;
+	background-size:cover;
+	white-space:nowrap;
+	text-align:center;
+	text-transform:uppercase;
+	font:10vmax/.85 Open Sans, Impact;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	}
