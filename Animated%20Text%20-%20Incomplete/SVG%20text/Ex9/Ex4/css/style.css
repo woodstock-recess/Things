@@ -1,0 +1,25 @@
+/* Estilos Principais */
+
+@font-face {
+	font-family: "Rainbow";
+	src: url('../fonts/Rainbow.ttf');
+}
+
+.text {
+	font:15em "Rainbow";
+	text-transform: uppercase;
+	fill: #222;
+}
+
+/*Outros Estilos*/
+
+body {
+	background: #FFF;
+	margin: 0;
+}
+
+svg {
+	position:absolute;
+	width: 100%;
+	height: 100%;
+}
